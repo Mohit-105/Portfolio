@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(7, 18, 35);
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(10, 27, 53);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+ul li a:hover{
+    color: rgb(120, 120, 190);
+    font-size: 1.02rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 45px 0px;
+    align-items: center;
+}
+.firstsection >div{
+    width: 35%;
+}
+.leftsection{
+
+    font-size: 3rem;
+}
+.rightsection img{
+    width: 80%;
+ 
+}
+.purple{
+    color: blueviolet;
+}
+#element{
+    color: blueviolet;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    font-size: 1.2rem;
+    height: 80vh;
+}
+main hr{
+    background-color: rgb(32, 106, 110); 
+    border: 0; 
+    height: 1px; 
+    margin: 30px 84px;
+}
+.text-gray{
+    color: gray;
+}
+.secondsection .box{
+    background: white;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .verticalBox{
+    background: white;
+    height: 95px;
+    width: 2px;
+    margin: 0 110px ;
+}
+.image-top{
+    width: 40px;
+    position: relative;
+    top: -29px;
+    left: -20px;
+}
+.vertical-title{
+    position: relative;
+    top: 63px;
+    /* left: -10px; */
+    width: 150px;
+}
+.vertical-desc{
+    position: relative;
+    top: 73px;
+    color: gray;
+    width: 170px;
+    font-size: 12px;
+}
+footer{
+    background-color: rgb(14, 6, 66);
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer >div{
+    width: 200px;
+}
+.footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+.leftsection .btn{
+    padding: 12px;
+    background-color: #132645;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.leftsection .btn{
+    margin: 50px 0;
+}
